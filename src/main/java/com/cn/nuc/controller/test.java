@@ -14,7 +14,7 @@ public class test {
 
     @RequestMapping("/hello1.do")
     public String admin1(Model model){
-        System.out.println("helllo");
+        System.out.println("helllo1");
         adminServer.st();
         return "adminpage/admin";
 
